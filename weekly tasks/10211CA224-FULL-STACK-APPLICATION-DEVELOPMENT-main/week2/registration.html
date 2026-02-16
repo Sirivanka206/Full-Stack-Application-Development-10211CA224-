@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Registration Form</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+}
+
+.box {
+  width: 300px;
+  margin: 60px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #bbb;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+}
+
+button {
+  background: green;
+  color: white;
+  border: none;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+<h3>Student Registration</h3>
+
+<form>
+  <input type="text" placeholder="Name" required>
+  <input type="email" placeholder="Email" required>
+  <input type="number" placeholder="Age" required>
+
+  <select required>
+    <option value="">Department</option>
+    <option>CSE</option>
+    <option>ECE</option>
+    <option>EEE</option>
+  </select>
+
+  <button type="submit">Submit</button>
+</form>
+
+</div>
+
+</body>
+</html>
